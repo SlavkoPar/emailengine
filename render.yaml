@@ -5,6 +5,7 @@
 services:
     # Web service
     - type: web
+      region: Frankfurt
       name: emailengine
       plan: standard
       env: node
